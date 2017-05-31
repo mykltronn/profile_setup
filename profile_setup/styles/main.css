@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+                /* ^^ Universals ^^ */
+                /* vv content vv */
+
+body {
+  background-color: #FBDA31;
+}
+
+.inner {
+  background-color: white;
+  width: 800px;
+  height: 500px;
+  margin: 50px 20%;
+  padding: 0px 20px;
+}
+
+
+          /*Actual Stuff*/
+/********************************/
+
+
+.button-flex{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.radiobuttons {
+  width: 30%;
+}
+
+
+.title-radios {
+  border: none;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  border: none;
+  line-height: 4;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+#type {
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+.fieldflex{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+/********************************/
+
+input {
+  margin-top: 10px;
+}
+
+.name-input {
+  margin-top: 20px;
+  border: none;
+  width: 48%;
+}
+.name-input input {
+  width: 100%;
+  height: 40px;
+}
+
+.email-input {
+  margin-top: 20px;
+  border: none;
+  width: 48%;
+}
+.email-input input {
+  width: 100%;
+  height: 40px;
+}
+
+.password-input {
+  margin-top: 20px;
+  border: none;
+  width: 48%;
+}
+.password-input input{
+  width: 100%;
+  height: 40px;
+}
+
+.passcon-input {
+  margin-top: 20px;
+  border: none;
+  width: 48%;
+}
+.passcon-input input {
+  width: 100%;
+  height: 40px;
+}
+
+.picture-choose {
+  margin-top: 20px;
+  border: none;
+  width: 48%;
+}
+
+.submit-button {
+  margin-top: 20px;
+  border: none;
+  width: 48%;
+}
+
+#signup-button {
+  border: solid 2px black;
+  border-radius: 5px;
+  background-color: white;
+  font: 18px 'Open Sans', sans-serif;
+  width: 100%;
+  height: 40px;
+}
